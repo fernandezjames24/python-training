@@ -1,6 +1,5 @@
 #import urlopen from urllib.request to open and read from URLs
 from urllib.request import urlopen
-import sys
 
 #checkvalidwords is a generator function that opens a URL text file and returns as an iterable
 #I picked generator because it is lazy initialized (call in need), so it has lower memory consumption and best for big data processing
@@ -25,12 +24,16 @@ def checkvalidwordsshort(word):
 
 
 #input word to compare with a dictionary file
-a = input("Enter a word: ")
+wordtocheck = input("Enter a word: ")
 print("Output:")
 
 #iterate through generator
-for words in checkvalidwords(a):
+for words in checkvalidwords(wordtocheck):
     print(words)
+
+
+
+
 
 
 
