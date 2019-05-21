@@ -2,7 +2,7 @@
 from urllib.request import urlopen
 
 #checkvalidwords is a generator function that opens a URL text file and returns as an iterable
-#I picked generator because it is lazy initialized (call in need), so it has lower memory consumption and best for big data processing
+#I picked generator because it is lazy initialized (call by need), so it has lower memory consumption and best for big data processing
 #I created two variants checkvalidwords and checkvalidwordsshort
 
 
