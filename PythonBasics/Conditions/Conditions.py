@@ -1,7 +1,7 @@
 
 
 # changed integer variable number to 16 from 10 to fulfill condition #1
-number = 16
+number = 19
 
 # changed second_number to 'not 11' to become False so if second_number
 # is on the condition phase 
